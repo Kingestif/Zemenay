@@ -1,0 +1,198 @@
+.content1{
+    width:100%;
+    height:70vh;
+    background-image:url("bg.png");
+    background-size:cover;    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position:relative;   
+}
+
+
+
+.below{
+    background-color: white;
+    height:50px;
+    width:200px;
+    margin-top:50px
+}
+
+.arpic{
+    position:absolute;
+    margin-top:-100px;
+}
+
+
+
+/* ---------------for image 1 on hot list */
+
+.hotimage1{
+    max-width: 100%;
+    display: block;
+}
+
+.person1{
+    position: relative; 
+    /* to make our below images use size of this container(*makes it containing block) */
+
+    /* to center the combined images */
+    max-width: 20rem;
+    margin-inline:auto;
+
+    /* margin-left:100px; */
+
+    line-height: 0rem;
+    /* to make the line image stick to to bottom */
+} 
+
+.person2{
+    position: relative; 
+    /* to make our below images use size of this container(*makes it containing block) */
+
+    /* to center the combined images */
+    max-width: 20rem;
+    /* margin-inline:auto; */
+
+    /* margin-left:100px; */
+
+    line-height: 0rem;
+    margin-left:-225px;
+    padding-top:50px;
+}
+.person3{
+     position: relative; 
+    /* to make our below images use size of this container(*makes it containing block) */
+
+    /* to center the combined images */
+    max-width: 20rem;
+    /* margin-inline:auto; */
+
+    margin-left:60px;
+
+    line-height: 0rem;
+}
+
+.person4{
+    position: relative; 
+    /* to make our below images use size of this container(*makes it containing block) */
+
+    /* to center the combined images */
+    max-width: 20rem;
+    /* margin-inline:auto; */
+
+    margin-left:-225px;
+
+    line-height: 0rem;
+}
+
+.circle{
+    position:absolute;
+
+    aspect-ratio: 1.4/1;  
+    /* aspect-ratio: 1/1;    */
+    /* make the background square */ 
+
+    object-fit: cover;
+    /* to make the background not pull the girl image oneway or another */
+
+    width:50%;
+
+    bottom:0;
+    /* **to make the background get at bottom since we know "person" is the containing block */
+
+    border-radius: 20px;
+}
+
+.person_img{
+    height: 200px;
+    position:relative;  
+    /* to make the girl become infront of background */
+
+    /* z-index:2; */
+
+    padding-left:10px;
+    /* to move the image inside the box(to Center) */
+
+}
+
+.person1_img{
+    height: 150px;
+    position:relative;  
+    /* to make the girl become infront of background */
+
+    /* z-index:2; */
+
+    padding-left:10px;
+    /* to move the image inside the box(to Center) */
+
+
+}
+.person2_img{
+    height: 150px;
+    position:relative;  
+    /* to make the girl become infront of background */
+
+    /* z-index:2; */
+
+    padding-left:30px;
+    /* to move the image inside the box(to Center) */
+
+}
+
+.person3_img{
+    height: 150px;
+    position:relative;  
+    /* to make the girl become infront of background */
+
+    /* z-index:2; */
+
+    padding-left:10px;
+    /* to move the image inside the box(to Center) */
+
+}
+
+.Hotbox{
+    column-count: 3;
+    /* flexing them cause major distruction so inorder to make them make them column use above way them make individual "person" class for them to edit their margin,padding.. */
+}
+.Hotside{
+    padding-top:100px;
+    margin-left:-450px;
+    font-size:30px;
+    color:white;
+}
+.Hotside p{
+    font-size:15px;
+    color:rgb(201, 196, 196);
+}
+
+.Hotholder2{
+    column-count:3;
+}
+
+.Hotside2{
+    color:rgb(189, 184, 184);
+    margin-left:-450px;
+    padding-top:40px;
+    font-size: 15px;
+}
+
+
+.person_img:hover{
+    filter: brightness(110%);
+}
+
+.person1_img:hover{
+    filter: brightness(110%);
+}
+
+.person2_img:hover{
+    filter: brightness(120%);
+}
+
+.person3_img:hover{
+    filter: brightness(120%);
+}
+
+
